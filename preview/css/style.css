@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1920px;
+    height: 750px;
+    padding: 82px 390px;
+    background-color: #fff;
+}
+
+.grid-container {
+    width: 1140px;
+    height: 580px;
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px;
+    grid-template-rows: 260px 260px;
+    column-gap: 60px;
+    row-gap: 60px;
+    
+}
+
+.grid-elem {
+    width: 240px;
+    height: 260px;
+    background-color: rgb(227, 147, 147);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
